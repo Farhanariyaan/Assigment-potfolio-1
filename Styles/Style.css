@@ -1,3 +1,48 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front-work {
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 30%;
+}
+
+.front-work h2 {
+    font-size: 60px;
+    text-align: right;
+    padding-top: 13%;
+    padding-right: 15%;
+}
+
+.front-work p {
+    text-align: right;
+    font-weight: normal;
+    padding-right: 15%;
+
+    font-size: 15px;
+    padding-top: 10px;
+    color: #444343;
+
+}
+
+#btn-1 {
+    align-items: center;
+    background-color: rgb(39, 39, 72);
+    padding: 1% 1% 1% 1%;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 78%;
+    border-radius: 5px;
+    border-color: orange;
+    margin-top: 20px;
+}
+
+
+
+
 /*........ Middle ... */
 
 .midddle{
@@ -124,7 +169,7 @@
 
 
 /* Footer Part Start */
-.last-part-1{
+.last-part{
     background-color: black;
     color: #FFFFFF;
     height: 450px;
@@ -138,18 +183,18 @@
    
   
 }
-.f-1{
+.frame{
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
   
 }
-.f-2 h1{
+.frame1 h1{
     margin-top: 30%;
     font-size: 45px;
 }
-.f-2 p{
+.frame1 p{
     margin-top: 4%;
     
     
